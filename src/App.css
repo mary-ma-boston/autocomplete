@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.container input{
+  width: 200px;
+  height: 30px;
+  display: block;
+  margin: 100px auto 0 auto;
+}
+
+.listStye{
+  width: 200px;
+  display: block;
+  
+ 
+}
+ul {
+  padding: 0px;
+  width: 205px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid grey;
+}
+.listStye li{
+  padding: 0px;
+  margin: 0px;
+
+ }
+
+ .listitem {
+  cursor: pointer;
+  list-style-type: none;
+  border-bottom: 1px solid grey;
+
+ }
+
+ .listitem:hover {
+  background-color: lightgrey;
+ }
+
+.listActive {
+  color:aqua;
+}
+
