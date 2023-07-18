@@ -57,7 +57,10 @@ ul {
   width: 205px;
   display: block;
   margin: 0 auto;
-  border: 1px solid grey;
+ 
+  border-left:1px solid grey;
+  border-bottom:1px solid grey;
+  border-right:1px solid grey;
 }
 .listStye li{
   padding: 0px;
@@ -78,5 +81,11 @@ ul {
 
 .listActive {
   color:aqua;
+}
+
+.optionInfo {
+  margin-top: 20px;
+  text-align: center;
+  font-size: large;
 }
 
